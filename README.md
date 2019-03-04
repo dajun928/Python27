@@ -1,2 +1,2 @@
 # myWorkNote
-some 
+some note from work
