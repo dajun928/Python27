@@ -17,7 +17,7 @@ class DBHelper():
         except Exception as e:
             print(e)
 
-    def quary(self,sql):
+    def query(self,sql):
         try:
             self.cursor.execute(sql)
             self.result=self.cursor.fetchall()
