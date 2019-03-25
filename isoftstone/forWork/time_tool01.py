@@ -1,3 +1,11 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+"""
+@version : 
+@file : time_tool01.py
+@time : 2019/03/26 00:13:42
+@func : 有问题 待解决
+"""
 import time
 from datetime import datetime
 from bisect import bisect_left
