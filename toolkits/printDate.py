@@ -29,11 +29,11 @@ def create_calendar(year,month):
             if i!=0:
                 print("-"*62+">")
                 print(str(year)+u"年"+str(month)+u"月"+str(i)+u"日"+ "  " + get_week_day(index))
-
+                print("* ")
 
 if __name__ == '__main__':
     year=2019
-    month=3
+    month=4
     create_calendar(year,month)
 
 
