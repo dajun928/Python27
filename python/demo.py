@@ -11,9 +11,9 @@ secretKey = 'yhNR5rFuuodstkFVVq6H' #你的密钥
  
 httpClient = None
 myurl = '/api/trans/vip/translate'
-q = '你好'
-fromLang = 'zh'
-toLang = 'en'
+q = 'hello'
+fromLang = 'en'
+toLang = 'zh'
 salt = random.randint(32768, 65536)
 
 sign = appid+q+str(salt)+secretKey
