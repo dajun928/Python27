@@ -5,6 +5,12 @@ import md5
 import urllib
 import random
 
+'''
+http://api.fanyi.baidu.com/api/trans/product/desktop?req=developer
+
+'''
+
+
 appid = '20190425000291658'        #你的appid
 secretKey = 'yhNR5rFuuodstkFVVq6H' #你的密钥
 
